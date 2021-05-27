@@ -32,6 +32,7 @@ int main()
 	
 	return 0;
 }
+// if you are compiling in ubuntu or mac do not forget to give the command g++ progname.cpp -lpthread
 
 	
 	
