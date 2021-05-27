@@ -8,7 +8,7 @@
 int main()
 {
 	//asio is good at handling errors
-	asio::error_cocde ec; //this asio variable is for error correction
+	asio::error_code ec; //this asio variable is for error correction
 	
 	asio::io_context context;// this line is used for making it work on any platform it operates. i.e., takes care of the platform.
 	
